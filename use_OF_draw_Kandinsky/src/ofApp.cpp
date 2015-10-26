@@ -126,26 +126,26 @@ void ofApp::draw(){
     
     
     
-    
-    ofNoFill();
-    ofSetColor( 0);
-    ofCircle(999,187,52);
-    ofFill();
-    
-    
-    
-    
-
-    ofSetColor( 50,255,50);
-    ofCircle(1030,187,40);
-
-    
-    
-    ofSetColor( 255,180,10,210);
-    ofCircle(999,187,50);
-    
-    ofSetColor( mouseY,0,255);
-    ofCircle(1030,187,20);
+//    
+//    ofNoFill();
+//    ofSetColor( 0);
+//    ofCircle(999,187,52);
+//    ofFill();
+//    
+//    
+//    
+//    
+//
+//    ofSetColor( 50,255,50);
+//    ofCircle(1030,187,40);
+//
+//    
+//    
+//    ofSetColor( 255,180,10,210);
+//    ofCircle(999,187,50);
+//    
+//    ofSetColor( mouseY,0,255);
+//    ofCircle(1030,187,20);
     
     
     
