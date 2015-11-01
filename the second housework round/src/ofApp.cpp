@@ -25,9 +25,10 @@ void ofApp::draw() {
     
       for ( int  i = numCircle ; i >= 0 ;  i-- ) {
        
-        float r = i*sin(i)*ofRandom(50);
-        float g = i*cos(i)*ofRandom(20);
-        float b = i*sin(x)*ofRandom(50);
+          float r = i*sin(i)*ofRandom(50);
+          float g = i*cos(i)*ofRandom(20);
+          float b = i*sin(x)*ofRandom(50);
+
     
     float canterX = ofGetWidth() ;
     float canterY = 1 ;
@@ -36,11 +37,62 @@ void ofApp::draw() {
      ofSetColor( r,g,b) ;
             
     ofCircle(ofGetWidth()/2, ofGetHeight(), radius);
-    ofCircle(1, 1, radius);
-    ofCircle(canterX, canterY, radius);
           
     }
   }
+{
+    
+    
+    
+    float colourDifference  ;
+    float numCircle = 40;
+    
+    
+    for ( int  x = 10 ; x >= 0 ;  x-- ) {
+        
+        for ( int  i = numCircle ; i >= 0 ;  i-- ) {
+            
+            float r = i*sin(i)*ofRandom(50);
+            float g = i*cos(i)*ofRandom(20);
+            float b = i*sin(x)*ofRandom(50);
+
+            
+            float canterX = ofGetWidth() ;
+            float canterY = 1 ;
+            float radius = i*(x+4) ;
+            
+            ofSetColor( r,g,b) ;
+            
+            ofCircle(1, 1, radius);
+            
+    }
+  }
+}
+    {
+
+    float colourDifference  ;
+    float numCircle = 40;
+    
+    
+    for ( int  x = 10 ; x >= 0 ;  x-- ) {
+        
+        for ( int  i = numCircle ; i >= 0 ;  i-- ) {
+            
+            float r = i*sin(i)*ofRandom(50);
+            float g = i*cos(i)*ofRandom(20);
+            float b = i*sin(x)*ofRandom(50);
+            float canterX = ofGetWidth() ;
+            float canterY = 1 ;
+            float radius = i*(x+4) ;
+            
+            ofSetColor( r,g,b) ;
+            
+            
+            ofCircle(canterX, canterY, radius);
+            
+   }
+  }
+ }
 }
 
 //--------------------------------------------------------------
